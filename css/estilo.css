@@ -1,0 +1,583 @@
+body{font-family: sans-serif;
+	background: url("../img/fondo.jpg");
+	margin: 0;
+	padding: 0;
+	background-size: 100% 100%;
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-position: center;
+box-sizing: border-box;
+}
+
+#materiah .his{
+	margin-left: 20px;
+	
+}
+
+#mil910{
+	position: absolute;
+	left: 500px;
+	top: 480px;
+}
+#dos017{
+	position: absolute;
+	left:736px;
+	top: 480px;
+}
+
+#content{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	box-sizing: border-box; 
+}
+
+#lado{width: 19.5%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(050,250,050,0.3);
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+
+.logo{
+	z-index: 1;
+	position: absolute;
+	left: 15%;
+	width: 70%;
+	height:100px;
+	margin-top: 15px;
+	font-family:Viner hand ITC;
+	/*font-family: Allura-Regular; src:url("../font/Allura/Allura-Regular.ttf")*/;
+	font-size: medium;
+	text-align: center;
+	box-sizing: border-box;
+
+}
+#line{ 
+	width: 100%;
+	height: 50%
+
+} 
+#linec{ 
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	margin-top: -55px;
+
+} 
+
+#elogo{ 
+	width: 100%;
+	height: 100%
+
+} 
+
+
+
+.redes{
+	position: absolute;
+	left: 20%;
+	width: 76%;
+	height: 75px;
+	margin-top: 80%;
+	z-index: 1;
+	bottom: 0;
+	
+
+}
+
+
+#principal{
+	width: 80%;
+	height: 100%;
+	left: 20%;
+	margin-top: 10px;
+	position:absolute;
+	margin: 0px;
+	z-index: 1;
+	box-sizing: border-box;
+	/*position: fixed;*/
+}
+
+#header{
+	background-color: rgba(118,127,127,0.7);
+	width: 98%;
+	height: 110px;
+	left: 1%;
+	position: absolute;
+	margin-top:0px;
+}
+
+.comun{
+	width: 98%;
+	margin-left: 1%;
+	margin-top: 145px;
+	background-color: rgba(118,127,127,0.9);
+	color:#fff;
+}
+#materiaindex{
+	height: 1460px;
+	
+
+}
+
+#materiawe{
+	height: 1440px;
+}
+
+#materiacnt{
+	height: 990px;
+}
+
+#materiamn{
+	height: 990px;
+}
+
+#last{width: 65%;
+	margin-top: 1050px;
+	text-align: center;
+}
+
+#tablaf{width: 98%;
+	margin-left: 1%;
+	text-align:center;
+	table-layout:fixed;
+	background-color: rgba(118,127,127,0.5);
+}
+/*.comun{
+	width: 90%;
+	background-color: rgba(118,127,127,0.9);
+	left: 5%;
+}
+*/
+#header>h1{
+	font-family:Viner hand ITC;
+	text-align: center;
+	font-size: 4.5em;
+	margin-top: 10px;
+	margin-bottom: 2%;
+}
+
+
+
+/*---------------------------------------aqui va el menú-----------------------------------------*/
+#nav{
+	left: 5%;
+	width: 90%;
+	height: 45%;
+	margin-top:215px;
+	position: absolute;
+}
+
+ul>a{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+}
+
+.menu{
+	position: absolute;
+	right: 5px;
+	width: 98%;
+	/*height: 55%;*/
+	/*margin-top: 25%;*/
+	z-index: auto;
+	list-style-type: none;
+
+}	
+
+.menu li{
+	float:center;
+	width: 100%;
+	height: 16.6%;
+	text-align: center;
+}
+
+.menu li:hover {
+	background-color: #4169e1;
+	color:white;
+	width: 100%;
+}
+/*-------------------------------------aqui finaliza menú----------------------------------------*/
+
+/*--------------------------------------INICIO index---------------------------------------*/
+.th2{
+	text-align: center;
+	font-size: 1.9em;
+	text-transform: uppercase;
+
+}
+
+p{
+	padding: 17px;
+	text-indent: 50px;
+	left: 12%;
+}
+#dar{
+	position: absolute;
+	left: 68%;
+	width: 27%;
+	/*height: 55%;*/
+	margin-top: 10px;
+	z-index: auto;
+	list-style-type: none;
+	text-align: center;
+
+}	
+
+#dar td{
+	float:center;
+	width: 100%;
+	height: 16.6%;
+	text-align: center;
+}
+
+#dar td:hover {
+	background-color: #4169e1;
+	color:white;
+	width: 100%;
+}
+
+#dar2{
+	position: absolute;
+	left: 68%;
+	width: 27%;
+	/*height: 55%;*/
+	margin-top: 510px;
+	z-index: auto;
+	list-style-type: none;
+	text-align: center;
+
+}	
+
+#dar2 td{
+	float:center;
+	width: 100%;
+	height: 16.6%;
+	text-align: center;
+}
+
+#dar2 td:hover {
+	background-color: #4169e1;
+	color:white;
+	width: 100%;
+}
+
+#comida{
+ 	left: 12%;
+ 	width: 55%;
+ 	height: auto;
+ 	position: absolute;
+ 	margin-top: 10px;
+
+}
+/*--------------------------------------FINAL index---------------------------------------*/
+
+/*--------------------------------------INICIO DE NOSOTROS---------------------------------------*/
+#lraya{
+	font-family: elephant;
+	text-align: center;
+	font-size: x-large;
+	letter-spacing:2px;
+
+}
+
+#deco{
+	width: 190px;
+	align-items: center;
+}
+
+#nosotros{
+	text-align: justify;
+	float: left;
+	margin-left: 1.5%;
+
+}
+
+#bnosotros{width: 100%;
+	height:300px;
+	background-image: url(../img/nosotros.jpg);
+	background-position: center;
+	margin-top: 100px;
+}
+#igen,#rhisto{
+	width: 100%;  
+}
+
+.fnos{width: 33%;
+	height:300px;
+	background-position: center;
+	float: left;
+	background-size: 100% 100%
+}
+
+
+#i{
+	background-image: url(../img/rest3.jpg);
+	
+}
+
+#ii{
+	background-image: url(../img/rest9.jpg);
+	
+}
+
+#iii{
+	background-image: url(../img/rest5.jpg);
+	
+}
+
+/*--------------------------------------FINAL DE NOSOTROS
+
+/*--------------------------------------INICIO DE CONTACO----------------------------------------*/
+#contacto{
+	width: 520px;
+	height: 400px;
+	position: absolute;
+	background-color: ;
+	text-align: center;
+}
+#sugerencia{
+	margin-left:537px ;
+	width: 520px;
+	height: 400px;
+	position: absolute;
+	background-color:;
+}
+
+
+#formulario1 {
+	width: 29%;
+	position: absolute;
+	height: 430px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#formulario1 {
+	text-align: center;
+	font-size: 18px;
+	color: black;
+	margin: 0;
+	padding-top: 1%;
+}
+
+
+
+#formulario1 {
+	width: 40%;
+	height: 480px;
+	padding-top: 4%;
+}
+
+.button {
+    background-color: rgba(050,250,050,0.3);
+    border: none;
+    color: black;
+      text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transform: translate(-20%, -20%);
+    -ms-transform: translate(-20%, -20%);
+    color: black;
+    padding: 11px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-color: rgba(050,250,050,0.9);
+    color: black;
+}
+
+.contactar{
+	width: 10%;
+	height: 10%;
+}
+
+#phone{
+	
+	position: absolute;
+}
+
+div>p{
+	text-align: center;
+}
+#mapa{
+	position: absolute;
+	width: 98%;
+	margin-top:510px;
+
+}
+
+/*--------------------------------------FINAL DE CONTACO----------------------------------------*/
+
+/*--------------------------------------INICIO DE ACTUALIDAD----------------------------------------*/
+#reabre{
+	background-size: 50% 50%;
+
+}
+
+/*-------------------------------------------		CUADRO VER MÁS		-------------------------------*/
+.receta{
+	width: 900px;	list-style-type:none;
+	position: relative;
+	margin-left: 20px;
+	color: #000;
+	font-size: 20px;
+	/*border-bottom: 2px groove #666666;*/
+	margin-right: 40;
+	border-bottom: border-box
+
+}
+
+.mas ul{
+	display: none;
+	list-style-type:none
+}
+
+.mas:hover > ul{display: block;
+
+}
+
+.mas a{
+	text-decoration: none;
+	color:#008080;
+	list-style-type:none;
+	font-size: 25px
+
+}
+
+/*-------------------------------------------		CUADRO VER MÁS		-------------------------------*/
+
+
+/*--------------------------------------FINAL DE ACTUALIDAD----------------------------------------*/
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
